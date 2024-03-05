@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class TriggerZone : MonoBehaviour
+public class LoseTriggerZone : MonoBehaviour
 {
     // set this reference in the inspector
     public TMP_Text output;
