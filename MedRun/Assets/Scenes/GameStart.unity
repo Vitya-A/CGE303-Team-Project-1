@@ -15344,7 +15344,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textbox: {fileID: 1878597638}
-  sentences: []
+  sentences:
+  - There's a plague a few villages over!
+  - We have developed a cure, but the medicine expires very soon! It's up to you
+    to deliver it on time!
+  - Use the left and right arrows or the A and D keys to move left and right!
+  - Use the space bar to jump and avoid any incoming obstacles!
+  - Deliver the medicine on time, or you'll be sent to the dungeon!
   typingSpeed: 0.02
   continueButton: {fileID: 1760151014}
   dialogPanel: {fileID: 994755108}
@@ -33174,6 +33180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69cabacd6fb8a4f569b80cdc21804bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  output: {fileID: 0}
+  textToDisplay: 
 --- !u!1 &1737284899
 GameObject:
   m_ObjectHideFlags: 0
