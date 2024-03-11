@@ -28,7 +28,7 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         if (!gameOver) {
-            textbox.text = "Score: " + score;
+            textbox.text = "Deliver the medicine!";
         }
         
         if (score >= 1) {
