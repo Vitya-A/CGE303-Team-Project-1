@@ -1,39 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
+using UnityEngine;
 
 public class SpikeTriggerZone : MonoBehaviour
 {
+    //set this reference in the inspector
     public TMP_Text output;
-    public string textToDisplay;
-    public static bool gameOver;
 
-    private void Start()
-    {
-        gameOver = false;
-    }
+    //enter text you want to display
+    public string textToDisplay;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Debug.Log("Triggered by " + collision.gameObject.name);
+
+        //set the player tag on the player in the inspector
         if (collision.gameObject.tag == "Player")
         {
-            gameOver = true;
+
+            //display textToDisplay on screen
             output.text = textToDisplay;
+
         }
+
     }
 
-    void Update()
-    {
-        if (gameOver)
-        {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
-            /*CharacterController cc = GetComponent<CharacterController>();
-            cc.enabled = false;*/
-        }
-    }
 }
