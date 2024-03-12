@@ -38400,7 +38400,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   moveSpeed: 7
-  jumpForce: 14
+  jumpForce: 12
   jumpSoundEffect: {fileID: 1420868006}
 --- !u!82 &1420868006
 AudioSource:
