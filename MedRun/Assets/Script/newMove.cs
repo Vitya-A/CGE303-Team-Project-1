@@ -7,8 +7,8 @@ public class newMove : MonoBehaviour
 
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
-    private Animator anim;
-    private BoxCollider2D coll;
+    //private Animator anim;
+    private CapsuleCollider2D coll;
 
     [SerializeField] private LayerMask jumpGround;
     private float dirX = 0f;
@@ -24,8 +24,8 @@ public class newMove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
-        coll = GetComponent<BoxCollider2D>();
+        //anim = GetComponent<Animator>();
+        coll = GetComponent<CapsuleCollider2D>();
     }
 
     // Update is called once per frame
@@ -77,7 +77,7 @@ public class newMove : MonoBehaviour
             state = MovementState.falling;
         }
 
-        anim.SetInteger("state", (int)state);
+        //anim.SetInteger("state", (int)state);
 
     }
 

@@ -19,6 +19,8 @@ public class SpikeTriggerZone : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
 
+            ScoreManager.gameOver = true;
+
             //display textToDisplay on screen
             output.text = textToDisplay;
 
