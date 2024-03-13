@@ -13,7 +13,7 @@ public class TimerText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (remainingTime > 0)
+        if (remainingTime > 0 && !ScoreManager.gameOver)
         {
             remainingTime -= Time.deltaTime;
         }
@@ -23,6 +23,10 @@ public class TimerText : MonoBehaviour
             // GameOver):
             timerText.color = Color.red;
 
+        }
+        else
+        {
+            timerText.color = Color.red;
         }
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);
