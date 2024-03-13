@@ -43346,6 +43346,7 @@ GameObject:
   - component: {fileID: 1581941497}
   - component: {fileID: 1581941496}
   - component: {fileID: 1581941495}
+  - component: {fileID: 1581941498}
   m_Layer: 0
   m_Name: LosingTriggerZone
   m_TagString: Untagged
@@ -43458,6 +43459,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1581941498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581941493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67da413457e24f5c8096c8b370f267e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textbox: {fileID: 495980498}
 --- !u!1 &1583917116
 GameObject:
   m_ObjectHideFlags: 0
