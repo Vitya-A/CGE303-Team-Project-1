@@ -55,6 +55,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+
+
         // Move the player using Rigidbody2D in FixedUpdate
         rb.velocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
 
