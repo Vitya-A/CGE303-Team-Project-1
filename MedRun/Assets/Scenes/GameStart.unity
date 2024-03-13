@@ -9876,7 +9876,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 297.9573, y: -0.7536706}
+  m_Offset: {x: 297.9573, y: -0.6931062}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9887,7 +9887,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 56.1485, y: 1.1226692}
+  m_Size: {x: 56.1485, y: 1.2438984}
   m_EdgeRadius: 0
 --- !u!212 &464931932
 SpriteRenderer:
@@ -25408,7 +25408,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 357.2072, y: -0.67422676}
+  m_Offset: {x: 357.2072, y: -0.65771914}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -25419,7 +25419,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.754639, y: 1.185566}
+  m_Size: {x: 15.754639, y: 1.2185812}
   m_EdgeRadius: 0
 --- !u!1 &1092823978
 GameObject:
@@ -39512,7 +39512,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.2958155, y: 15.815767}
+  m_Offset: {x: 113.72874, y: -0.6750165}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -39523,7 +39523,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001001358, y: 0.043109894}
+  m_Size: {x: 133.73888, y: 1.1961772}
   m_EdgeRadius: 0
 --- !u!212 &1731086091
 SpriteRenderer:
@@ -49261,7 +49261,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 357.31552, y: -0.6192}
+  m_Offset: {x: 357.31552, y: -0.5913454}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -49272,7 +49272,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.420715, y: 1.0138078}
+  m_Size: {x: 15.420715, y: 1.0695169}
   m_EdgeRadius: 0
 --- !u!1 &2085620560
 GameObject:
