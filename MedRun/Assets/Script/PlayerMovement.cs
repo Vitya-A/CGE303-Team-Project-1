@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
 
         // Check for jump input
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded && !ScoreManager.gameOver)
         {
             // Apply an upward force for jumping
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
