@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private float horizontalInput;
+    private float verticalInput;
+    bool facingRight = true;
 
     // An audio clip to hold jump sound
     public AudioClip jumpSound;
@@ -23,12 +25,16 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioSource audioPlayer;
 
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
 
-        playerAudio = GetComponent<AudioSource>();
+        playerAudio = gameObject.GetComponent<AudioSource>();
 
         if (groundCheck == null)
         {
@@ -40,7 +46,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         // Get input values for horizontal movement
-        horizontalInput = Input.GetAxis("Horizontal");
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
+
 
         // Check for jump input
         if (Input.GetButtonDown("Jump") && isGrounded && !ScoreManager.gameOver)
@@ -51,6 +59,17 @@ public class PlayerMovement : MonoBehaviour
             // Play jump sound effect
             playerAudio.PlayOneShot(jumpSound, 1.0f);
         }
+        //New Method:// https://www.youtube.com/watch?v=Cr-j7EoM8bg&ab_channel=DaniKrossing
+        if(horizontalInput > 0 && !facingRight)
+        {
+            Flip();
+        }
+        if (horizontalInput < 0 && facingRight)
+        {
+            Flip();
+        }
+
+
     }
 
     void FixedUpdate()
@@ -70,6 +89,17 @@ public class PlayerMovement : MonoBehaviour
         {
             audioPlayer.Play();
         }
+    }
+
+
+
+    void Flip()
+    {
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingRight = !facingRight;
     }
 }
 

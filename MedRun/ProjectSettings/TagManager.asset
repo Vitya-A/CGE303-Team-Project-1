@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Timer
   - Trap
+  - Grab
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - Water
   - UI
   - Backgrounds
-  - 
+  - GrabObject
   - 
   - 
   - 
@@ -45,4 +46,7 @@ TagManager:
     locked: 0
   - name: Trap
     uniqueID: 791820781
+    locked: 0
+  - name: Grab
+    uniqueID: 3355380589
     locked: 0
