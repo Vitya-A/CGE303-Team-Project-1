@@ -7,6 +7,7 @@ TagManager:
   - Timer
   - Trap
   - Grab
+  - GM
   layers:
   - Default
   - TransparentFX

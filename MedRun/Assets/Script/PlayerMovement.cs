@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
+    //Vector2 checkpointPos;
+
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
 
@@ -32,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //checkpointPos = transform.position;
         rb = gameObject.GetComponent<Rigidbody2D>();
 
         playerAudio = gameObject.GetComponent<AudioSource>();
@@ -101,5 +105,17 @@ public class PlayerMovement : MonoBehaviour
 
         facingRight = !facingRight;
     }
+
+    /*public void UpdateCheckpoint(Vector2 pos)
+    {
+        checkpointPos = pos;
+    }
+
+    IEnumerator Respawn(float duration)
+    {
+
+        transform.position = checkpointPos;
+
+    }*/
 }
 
