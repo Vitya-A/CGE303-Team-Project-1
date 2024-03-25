@@ -25,4 +25,9 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quit");
         Application.Quit();
     }
+
+    public void CreditsButton()
+    {
+        SceneManager.LoadScene("Credits"); // scene 4  in casse it doesnt work
+    }
 }
