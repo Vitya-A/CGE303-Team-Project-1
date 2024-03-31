@@ -23,7 +23,7 @@ public class WinZone : MonoBehaviour
         if (active && collision.gameObject.tag == "Grab")
         {
             // deactivate the trigger zone
-            active = true;
+            active = false;
             
             // Adds 1 to the score
             // when the player enters the trigger zone
@@ -31,8 +31,6 @@ public class WinZone : MonoBehaviour
             gameObject.SetActive(true);
 
             finishSound.Play();
-
         }
     }
-
 }
