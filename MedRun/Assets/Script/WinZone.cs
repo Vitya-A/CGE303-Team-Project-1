@@ -5,7 +5,7 @@ using UnityEngine;
 public class WinZone : MonoBehaviour
 {
     //create a variable to keep track of
-    //whether th trigger zone is active
+    //whether the trigger zone is active
     private AudioSource finishSound;
     bool active = true;
 
@@ -20,14 +20,12 @@ public class WinZone : MonoBehaviour
     {
 
         // if the trigger zone is active...
-        if (active && collision.gameObject.tag == "Player")
+        if (active && collision.gameObject.tag == "Grab")
         {
-            //deactivate the trigger zone
+            // deactivate the trigger zone
             active = true;
-
-
-
-            //Add 1 sto the core
+            
+            // Adds 1 to the score
             // when the player enters the trigger zone
             ScoreManager.score++;
             gameObject.SetActive(true);
