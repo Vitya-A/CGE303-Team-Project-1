@@ -432,6 +432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeLine3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8246813521146951253, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8246813521146951254, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -480,7 +484,8 @@ PrefabInstance:
       propertyPath: output
       value: 
       objectReference: {fileID: 1270988307}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8246813521146951255, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
 --- !u!1 &318297721
 GameObject:
@@ -3223,6 +3228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeLine3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8246813521146951253, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8246813521146951254, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3271,7 +3280,8 @@ PrefabInstance:
       propertyPath: output
       value: 
       objectReference: {fileID: 1270988307}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8246813521146951255, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
 --- !u!1 &478081299 stripped
 GameObject:
@@ -3285,7 +3295,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478081299}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0dfc3ca29bc9485d9c2f55a37fc61d5, type: 3}
   m_Name: 
@@ -3555,7 +3565,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628718419}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0dfc3ca29bc9485d9c2f55a37fc61d5, type: 3}
   m_Name: 
@@ -3765,7 +3775,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659888954}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0dfc3ca29bc9485d9c2f55a37fc61d5, type: 3}
   m_Name: 
@@ -3868,6 +3878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeLine3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8246813521146951253, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8246813521146951254, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -3916,7 +3930,8 @@ PrefabInstance:
       propertyPath: output
       value: 
       objectReference: {fileID: 1270988307}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8246813521146951255, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
 --- !u!1 &842369989
 GameObject:
@@ -3951,9 +3966,8 @@ MonoBehaviour:
   sentences:
   - You made it... Good job.
   - This area...is a bit more difficult.
-  - There are a number of spikes you need to avoid.
-  - If you happen to come into contact with one, you can press R to restart from
-    the beginning of this area.
+  - Try to avoid the spikes... They won't hurt you yet, but that's also about to
+    change...
   - Make it to the green pad at the end of this area to get things started...
   - Good luck, traveler.
   typingSpeed: 0.02
@@ -3985,7 +3999,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935463199}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0dfc3ca29bc9485d9c2f55a37fc61d5, type: 3}
   m_Name: 
@@ -4016,7 +4030,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076540489}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0dfc3ca29bc9485d9c2f55a37fc61d5, type: 3}
   m_Name: 
@@ -4067,6 +4081,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeLine3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8246813521146951253, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8246813521146951254, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -4115,7 +4133,8 @@ PrefabInstance:
       propertyPath: output
       value: 
       objectReference: {fileID: 1270988307}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8246813521146951255, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
 --- !u!1 &1154719984 stripped
 GameObject:
@@ -4129,7 +4148,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154719984}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0dfc3ca29bc9485d9c2f55a37fc61d5, type: 3}
   m_Name: 
@@ -4309,6 +4328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeLine3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8246813521146951253, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8246813521146951254, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -4357,7 +4380,8 @@ PrefabInstance:
       propertyPath: output
       value: 
       objectReference: {fileID: 1270988307}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8246813521146951255, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
 --- !u!1 &1337526783
 GameObject:
@@ -4857,6 +4881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeLine3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8246813521146951253, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8246813521146951254, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -4905,5 +4933,6 @@ PrefabInstance:
       propertyPath: output
       value: 
       objectReference: {fileID: 1270988307}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8246813521146951255, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 94277d2db2af94d5e9b6ea96c8fcac6e, type: 3}
